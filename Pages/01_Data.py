@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Vodafone churn Customer Database")
+st.title("Vodafone Customer Churn Database")
 
 
 @st.cache_resource(show_spinner="connecting to database...")
