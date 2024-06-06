@@ -14,6 +14,8 @@ if authenticator():  # Call your authentication function
   with col1:
     # Add your desired content here (text, charts, etc.)
     st.write("**About us**")
+    st.write("Kryton consultancy is a team of Data scientist with a combined experience of 10 years."
+             "We build applications for industries that are interested in seeing continouos improvement and value creation by identifying areas of growth and reducing wastage")
   with col2:
     st.write("### Follow the instructions below on how to run application")
     st.code("""
