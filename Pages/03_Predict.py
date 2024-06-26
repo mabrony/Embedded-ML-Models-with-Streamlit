@@ -29,12 +29,12 @@ def main():
 	# Function to load models and encoder
 @st.cache_resource(show_spinner='Models Loading')
 def load_xgb():
-    model, threshold = joblib.load('./Model/best_gb_model_and_threshold.joblib')
+    model, threshold = joblib.load('./models/xgb_model.joblib')
     return model, threshold
 
 @st.cache_resource(show_spinner='Models Loading')
 def load_lr():
-    model, threshold = joblib.load('./Model/best_LR_model_and_threshold.joblib')
+    model, threshold = joblib.load('./models/lr_model.joblib')
     return model, threshold
 
 def select_model():
@@ -56,7 +56,7 @@ def select_model():
         pipeline, threshold = None, None
 
     if pipeline and threshold:
-        encoder = joblib.load("./Model/encoder.joblib")
+        encoder = joblib.load("./models/encoder.joblib")
     else:
         encoder = None
 

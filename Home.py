@@ -35,10 +35,10 @@ elif st.session_state["authentication_status"] is None:
     st.code('''
         Login Credentials for Test Account:
         Username: test
-        Password: 1a2b3c''')
+        Password: 1A2345e''')
 
 if st.session_state["authentication_status"]:
-    st.markdown("<h1 style='color: skyblue;'>CUSTOMER CHURN PREDICTION APP</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: red;'>CUSTOMER CHURN APP</h1>", unsafe_allow_html=True)
 
     # Create two columns
     col1, col2 = st.columns(2)
