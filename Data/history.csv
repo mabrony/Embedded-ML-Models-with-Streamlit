@@ -1,0 +1,2 @@
+gender,seniorcitizen,partner,dependents,tenure,phoneservice,multiplelines,internetservice,onlinesecurity,onlinebackup,deviceprotection,techsupport,streamingtv,streamingmovies,contract,paperlessbilling,paymentmethod,monthlycharges,totalcharges,Prediction Time,Model Used,Will Customer Churn,Probability
+Male,Yes,Yes,Yes,3,Yes,Yes,DSL,Yes,Yes,No,Yes,No,No,Month-to-month,No,Mailed check,20,19,Time: 00:22 Date: 2024-06-26,XGB Classifier,Yes,41.48
